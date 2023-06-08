@@ -1653,7 +1653,7 @@ img {
   background: transparent;
   z-index: 120;
   padding: 12px 0;
-  border-bottom: 1px solid #E9E9E9;
+  /*border-bottom: 1px solid #E9E9E9;*/
   -webkit-transition: background 0.3s;
   transition: background 0.3s; }
   .c-header.is-scroll {
@@ -2592,6 +2592,7 @@ img {
   padding-top: 5.625rem;
   padding-bottom: 6.25rem; }
   .s-slider__title {
+    padding: 0 20px;
     font-weight: 600;
     font-size: 2.5rem;
     line-height: 110%;
@@ -2603,6 +2604,7 @@ img {
   .s-slider__text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 150%;
